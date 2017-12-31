@@ -1,0 +1,17 @@
+.jumbotron{
+	text-align: center;
+	background: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+	
+}
+
+.display-4{
+	font-size: 65px;
+	font-weight: bolder;
+}
+
+#rules{
+	font-family: 'Lobster Two', cursive;
+	font-size: 26px;
+
+
+}

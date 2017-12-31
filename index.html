@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Practice</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+	
+
+<div class="jumbotron">
+  <h1 class="display-4">Crystal Collector</h1>
+  <p class="lead">Try to match the randomly generated number!</p>
+</div>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<p id="rules"> A random number will display on the screen. <br>There are four different crystals below. Each crystal is worth a certain number of points. <br>Every time you click on a crystal, your current score will increase by whatever number of points the crystal is worth. <br>The goal is to match your current score with the random number. <br> If you match the random number, you win! If you go over the random number, you lose. After each win or loss, your scoreboard will reflect your wins and losses and the game will refresh so that you can continue playing.<br> Game on!
+			</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="card border-primary mb-3">
+			  <div class="card-header">Random Number</div>
+			  <div class="card-body text-primary">
+			    <h5 class="card-title" id="randomNumber">Number</h5>			    
+			  </div>
+			</div>			
+		</div>
+
+		<div class="col-lg-3">
+			<div class="card border-primary mb-3">
+			  <div class="card-header">Your Current Score</div>
+			  <div class="card-body text-primary">
+			    <h5 class="card-title" id="currentScore">Score</h5>			    
+			  </div>
+			</div>				
+		</div>
+
+		<div class="col-lg-6">
+			<div class="card border-primary mb-3" >
+			  <div class="card-header">Gems</div>
+			  <div class="card-body text-primary">
+			    <h5 class="card-title" id="jewel"></h5>			    
+			  </div>
+			</div>				
+		</div>
+
+	</div>
+
+
+	<!--
+		display game name with bootstrap header/jumbotron
+		display instructions in html
+		find images/icons of gems and save in images folder
+		create placeholder div for displaying the wins and losses
+		create placeholder div for display the random number
+		create placeholder div for displaying their current score
+
+	-->
+	<div class="number"></div>
+	<div class="scoreboard"></div>
+	
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
